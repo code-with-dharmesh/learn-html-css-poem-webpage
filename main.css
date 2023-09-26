@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #FF5857;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-heading {
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    width: 600px;
+    margin: 20px auto;
+    padding: 10px 0;
+}
+
+.poem-card {
+    background-color: white;
+    width: 900px;
+    margin: 50px auto; /* center the poem card */
+    border-radius: 5px;
+    padding-bottom: 15px;
+}
+
+.poem-card img {
+    width: inherit;
+    height: 300px;
+    border-radius: 5px 5px 0 0;
+}
+
+.poem-card .poem-content {
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.poem-highlight {
+    font-size: 20px;
+}
+
+.poem-title, .poem-author {
+    font-size: 30px;
+}
+
+.poem-title {
+    color: #9a2f3d;
+    padding-right: 10px;
+}
+
+.poem-author {
+    color: #e30022;
+    padding-left: 10px;
+}
+
+.poem-para {
+    font-weight: bold;
+    line-height: 2em;
+}
+
+.copyrights {
+    text-align: center;
+    background-color: white;
+    width: 40%;
+    margin: 1.2rem auto;
+    border-radius: 5px;
+    font-weight: bold;
+}
